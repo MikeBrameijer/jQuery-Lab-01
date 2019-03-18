@@ -1,0 +1,99 @@
+body{
+    background-color: #E1D7D4;
+    font-family: Roboto Mono;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-family: rubik;
+    color: #E34E45;
+    Font-weight: normal, 700px;
+
+}
+h2{
+    font-family: rubik;
+    color: #E34E45;
+    margin: 5px 0px 15px 0px;
+}
+span{
+    margin: 5px 0px 15px 0px;
+}
+.container{
+    margin: 0 auto;
+}
+#allTable{
+    background-color: #EEE;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.tableRow{
+    display: flex;
+}
+
+.available{
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    color: #ADAAAA;
+    border-radius: 50%;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.reserved{
+    width: 50px;
+    height: 50px;
+    background-color: #ADAAAA;
+    color: #ccc;
+    border-radius: 50%;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: not-allowed;   
+}
+
+#form{
+    display: none;
+    height: 275px;
+    width: 250px;
+    background-color: #EEE;
+    padding: 30px;
+    /* display: flex; */
+    flex-direction: column;
+    box-shadow: 0px 0px 31px 1px rgba(0,0,0,0.3)
+}
+#x{
+    float: right;
+    background-color: #eee;
+    border: none;
+    margin: -25px -25px 0px 0px;
+
+}
+.input-container{
+    width: 100%;
+    margin: 15px 0;
+    background-color: #EEE;
+    border-bottom: 1px solid #CCC;
+}
+input{
+    width: 100%;
+    border: none;
+    color: black;
+    background-color: #EEE;
+}
+#saveButton{
+    width: 100%;
+    height: 45px;
+    background-color: #008000;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.3);
+    color: white;
+
+}

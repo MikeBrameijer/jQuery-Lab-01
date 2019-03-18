@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono%7CRubik" rel="stylesheet">
+
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <h1 id="mainHeader">Table Finder</h1>
+            <p>Pick your table now</p>
+        </div>
+        <div class="container" id="allTable">
+            <div class="tableRow">
+                <div class="available" id="tableOne">1</div>
+                <div class="reserved" id="tableTwo">2</div>
+                <div class="available" id="tableThree">3</div>
+            </div>
+            <div class="tableRow">
+                <div class="available" id="tableFour">4</div>
+                <div class="available" id="tableFive">5</div>
+                <div class="reserved" id="tableSix">6</div>
+            </div>
+            <div class="tableRow">
+                <div class="available" id="tableSeven">7</div>
+                <div class="available" id="tableEight">8</div>
+                <div class="available" id="tableNine">9</div>
+            </div>
+        </div>
+        <div class="container" id="form">
+            
+                <button id="x">X</button>
+                <h2>New Reservation</h2>
+                <span>Table Number:</span>
+                <span id=tableNumber>1</span>
+                <div class="input-container">
+                    <label for="name-input"></label>
+                    <input id="name-input" type="text" placeholder="Name" />
+                </div>
+                <div class="input-container">
+                    <label for="phone-number-input"></label>
+                    <input id="phone-number-input" type="text" placeholder="Phone" />
+                </div>
+                <div class="input-container">
+                    <label for="reservation-input"> </label>
+                    <input id="reservation-input" type="text" placeholder="Number of People" />
+                </div>
+                <div class="loginButton">
+                    <button id="saveButton" class="save" type="submit"> SAVE </button>
+                </div>
+            
+        </div>
+    </main>
+
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
